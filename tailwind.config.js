@@ -31,6 +31,9 @@ module.exports = {
           500:'#009946'
         },
       },
+      fontFamily: {
+        'sans': ['Gilmer'],
+      },
     extend: {},
   },
   variants: {

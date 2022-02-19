@@ -1,3 +1,38 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
+
+
 @import 'tailwindcss/utilities';
+
+
+@layer base {
+  @font-face {
+    font-family: 'Gilmer';
+    font-weight: 300;
+    src: url('../fonts/gilmer-light.ttf') format("truetype");
+  }
+  @font-face {
+    font-family: 'Gilmer';
+    src: url('../fonts/gilmer-regular.tff') format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Gilmer';
+    font-weight: 500;
+    src: url('../fonts/gilmer-medium.ttf') format("truetype");
+  }
+  @font-face {
+    font-family: 'Gilmer';
+    font-weight: 700;
+    src: url('../fonts/gilmer-bold.ttf') format("truetype");
+  }
+  @font-face {
+    font-family: 'Gilmer';
+    font-weight: 900;
+    src: url('../fonts/gilmer-heavy.ttf') format("truetype");
+  }
+}
+
+nav{
+  height: 56px;
+}
