@@ -32,7 +32,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        'sans': ['Gilmer'],
+        'sans': ['Gilmer', 'sans-serif'],
       },
       fontSize:{
         'sm':[

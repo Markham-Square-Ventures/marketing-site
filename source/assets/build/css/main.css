@@ -356,7 +356,7 @@ ul {
  */
 
 html {
-  font-family: Gilmer; /* 1 */
+  font-family: Gilmer, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -574,44 +574,196 @@ video {
   border-color: currentColor;
 }
 
+/*
+  Font: 	Gilmer
+  Style: 	Light
+  URL: 		https://www.youworkforthem.com/font/T9758/gilmer
+  Foundry: 	Piotr Lapa
+  Foundry: 	https://www.youworkforthem.com/designer/1166/piotr-lapa
+  Copyright: Copyright © 2018 by Piotr _apa. All rights reserved.
+  Version: 	17
+  Created:	August 17, 2018
+  License: 	https://www.youworkforthem.com/font-license
+  License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+              WebFont license rules. All other parties are strictly restricted
+              from using the WebFonts(s) listed without a purchased license.
+              All details above must always remain unaltered and visible in your CSS.
+  */
+
 @font-face {
   font-family: 'Gilmer';
+
+  src: url('/assets/fonts/gilmer-light.eot');
+
+  src: url('/assets/fonts/gilmer-light.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/gilmer-light.woff2') format('woff2'),
+    url('/assets/fonts/gilmer-light.woff') format('woff'),
+    url('/assets/fonts/gilmer-light.ttf') format('truetype'),
+    url('/assets/fonts/gilmer-light.svg#youworkforthem') format('svg');
 
   font-weight: 300;
 
-  src: url('../fonts/gilmer-light.ttf') format("truetype");
+  font-style: normal;
 }
+
+/*
+  Font: 	Gilmer
+  Style: 	Regular
+  URL: 		https://www.youworkforthem.com/font/T9758/gilmer
+  Foundry: 	Piotr Lapa
+  Foundry: 	https://www.youworkforthem.com/designer/1166/piotr-lapa
+  Copyright: Copyright © 2018 by Piotr _apa. All rights reserved.
+  Version: 	17
+  Created:	August 17, 2018
+  License: 	https://www.youworkforthem.com/font-license
+  License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+              WebFont license rules. All other parties are strictly restricted
+              from using the WebFonts(s) listed without a purchased license.
+              All details above must always remain unaltered and visible in your CSS.
+  */
 
 @font-face {
   font-family: 'Gilmer';
 
-  src: url('../fonts/gilmer-regular.tff') format("truetype");
+  src: url('/assets/fonts/gilmer-regular.eot');
+
+  src: url('/assets/fonts/gilmer-regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/gilmer-regular.woff2') format('woff2'),
+    url('/assets/fonts/gilmer-regular.woff') format('woff'),
+    url('/assets/fonts/gilmer-regular.ttf') format('truetype'),
+    url('/assets/fonts/gilmer-regular.svg#youworkforthem') format('svg');
 
   font-weight: 400;
+
+  font-style: normal;
 }
+
+/*
+  Font: 	Gilmer
+  Style: 	Medium
+  URL: 		https://www.youworkforthem.com/font/T9758/gilmer
+  Foundry: 	Piotr Lapa
+  Foundry: 	https://www.youworkforthem.com/designer/1166/piotr-lapa
+  Copyright: Copyright © 2018 by Piotr _apa. All rights reserved.
+  Version: 	17
+  Created:	August 17, 2018
+  License: 	https://www.youworkforthem.com/font-license
+  License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+              WebFont license rules. All other parties are strictly restricted
+              from using the WebFonts(s) listed without a purchased license.
+              All details above must always remain unaltered and visible in your CSS.
+  */
 
 @font-face {
   font-family: 'Gilmer';
+
+  src: url('/assets/fonts/gilmer-medium.eot');
+
+  src: url('/assets/fonts/gilmer-medium.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/gilmer-medium.woff2') format('woff2'),
+    url('/assets/fonts/gilmer-medium.woff') format('woff'),
+    url('/assets/fonts/gilmer-medium.ttf') format('truetype'),
+    url('/assets/fonts/gilmer-medium.svg#youworkforthem') format('svg');
 
   font-weight: 500;
 
-  src: url('../fonts/gilmer-medium.ttf') format("truetype");
+  font-style: normal;
 }
+
+/*
+  Font: 	Gilmer
+  Style: 	Bold
+  URL: 		https://www.youworkforthem.com/font/T9758/gilmer
+  Foundry: 	Piotr Lapa
+  Foundry: 	https://www.youworkforthem.com/designer/1166/piotr-lapa
+  Copyright: Copyright © 2018 by Piotr _apa. All rights reserved.
+  Version: 	17
+  Created:	August 17, 2018
+  License: 	https://www.youworkforthem.com/font-license
+  License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+              WebFont license rules. All other parties are strictly restricted
+              from using the WebFonts(s) listed without a purchased license.
+              All details above must always remain unaltered and visible in your CSS.
+  */
 
 @font-face {
   font-family: 'Gilmer';
+
+  src: url('/assets/fonts/gilmer-bold.eot');
+
+  src: url('/assets/fonts/gilmer-bold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/gilmer-bold.woff2') format('woff2'),
+    url('/assets/fonts/gilmer-bold.woff') format('woff'),
+    url('/assets/fonts/gilmer-bold.ttf') format('truetype'),
+    url('/assets/fonts/gilmer-bold.svg#youworkforthem') format('svg');
 
   font-weight: 700;
 
-  src: url('../fonts/gilmer-bold.ttf') format("truetype");
+  font-style: normal;
 }
+
+/*
+  Font: 	Gilmer
+  Style: 	Heavy
+  URL: 		https://www.youworkforthem.com/font/T9758/gilmer
+  Foundry: 	Piotr Lapa
+  Foundry: 	https://www.youworkforthem.com/designer/1166/piotr-lapa
+  Copyright: Copyright © 2018 by Piotr _apa. All rights reserved.
+  Version: 	17
+  Created:	August 17, 2018
+  License: 	https://www.youworkforthem.com/font-license
+  License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+              WebFont license rules. All other parties are strictly restricted
+              from using the WebFonts(s) listed without a purchased license.
+              All details above must always remain unaltered and visible in your CSS.
+  */
 
 @font-face {
   font-family: 'Gilmer';
 
+  src: url('/assets/fonts/gilmer-heavy.eot');
+
+  src: url('/assets/fonts/gilmer-heavy.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/gilmer-heavy.woff2') format('woff2'),
+    url('/assets/fonts/gilmer-heavy.woff') format('woff'),
+    url('/assets/fonts/gilmer-heavy.ttf') format('truetype'),
+    url('/assets/fonts/gilmer-heavy.svg#youworkforthem') format('svg');
+
   font-weight: 900;
 
-  src: url('../fonts/gilmer-heavy.ttf') format("truetype");
+  font-style: normal;
+}
+
+/*
+  Font: 	Gilmer
+  Style: 	Outline
+  URL: 		https://www.youworkforthem.com/font/T9758/gilmer
+  Foundry: 	Piotr Lapa
+  Foundry: 	https://www.youworkforthem.com/designer/1166/piotr-lapa
+  Copyright: Copyright © 2018 by Piotr _apa. All rights reserved.
+  Version: 	17
+  Created:	August 17, 2018
+  License: 	https://www.youworkforthem.com/font-license
+  License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+              WebFont license rules. All other parties are strictly restricted
+              from using the WebFonts(s) listed without a purchased license.
+              All details above must always remain unaltered and visible in your CSS.
+  */
+
+@font-face {
+  font-family: 'Gilmer-Outline';
+
+  src: url('/assets/fonts/gilmer-outline.eot');
+
+  src: url('/assets/fonts/gilmer-outline.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/gilmer-outline.woff2') format('woff2'),
+    url('/assets/fonts/gilmer-outline.woff') format('woff'),
+    url('/assets/fonts/gilmer-outline.ttf') format('truetype'),
+    url('/assets/fonts/gilmer-outline.svg#youworkforthem') format('svg');
+
+  font-weight: normal;
+
+  font-style: normal;
 }
 
 .container {
@@ -15826,7 +15978,7 @@ video {
 }
 
 .font-sans {
-  font-family: Gilmer;
+  font-family: Gilmer, sans-serif;
 }
 
 .text-sm {
@@ -34766,7 +34918,7 @@ nav{
   }
 
   .sm\:font-sans {
-    font-family: Gilmer;
+    font-family: Gilmer, sans-serif;
   }
 
   .sm\:text-sm {
@@ -53665,7 +53817,7 @@ nav{
   }
 
   .md\:font-sans {
-    font-family: Gilmer;
+    font-family: Gilmer, sans-serif;
   }
 
   .md\:text-sm {
@@ -72564,7 +72716,7 @@ nav{
   }
 
   .lg\:font-sans {
-    font-family: Gilmer;
+    font-family: Gilmer, sans-serif;
   }
 
   .lg\:text-sm {
@@ -91463,7 +91615,7 @@ nav{
   }
 
   .xl\:font-sans {
-    font-family: Gilmer;
+    font-family: Gilmer, sans-serif;
   }
 
   .xl\:text-sm {
@@ -110362,7 +110514,7 @@ nav{
   }
 
   .\32xl\:font-sans {
-    font-family: Gilmer;
+    font-family: Gilmer, sans-serif;
   }
 
   .\32xl\:text-sm {
