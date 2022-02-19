@@ -34,7 +34,19 @@ module.exports = {
       fontFamily: {
         'sans': ['Gilmer'],
       },
-    extend: {},
+      fontSize:{
+        'sm':[
+          '20px'
+        ],
+        'base':['24px',{
+          lineHeight: '38px',
+         }],
+        '6xl': ['64px', {
+          lineHeight: '70px',
+        }],
+      },
+      extend: {
+      },
   },
   variants: {
     extend: {},
