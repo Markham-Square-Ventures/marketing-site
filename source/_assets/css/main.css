@@ -175,7 +175,7 @@
 
 @layer components {
   h1 {
-    @apply text-[2.75rem] leading-[42px] sm:text-[3.5rem] sm:leading-[60px] lg:text-[4rem] lg:leading-[70px] font-black; /* 64px */
+    @apply text-[2.25rem] leading-[36px] sm:text-[3rem] sm:leading-[52px] md:text-[3.25rem] md:leading-[56px] lg:text-[4rem] lg:leading-[68px] font-black; /* 64px */
   }
 
   h2 {
