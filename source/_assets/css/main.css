@@ -217,6 +217,17 @@
   .btn-lg {
     @apply text-[1.125rem] sm:text-[1.25rem] py-5 px-8;
   }
+
+  .underline-grow {
+    @apply inline transition-sm no-underline p-0 mx-0 my-6;
+    background: linear-gradient(90deg, #0A0A0A 0, #0A0A0A) no-repeat; /* gray-900 */
+    background-size: 0 0.15rem;
+    background-position: left 98%;
+  }
+
+  .underline-grow:hover {
+    background-size: 100% 0.15rem;
+  }
 }
 
 @layer utilities {
