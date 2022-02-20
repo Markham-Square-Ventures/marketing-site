@@ -207,7 +207,7 @@
   }
 
   .btn {
-    @apply bg-white leading-full font-bold inline-block text-center flex-shrink-0 border border-3 shadow-primary transition-sm outline-none hover:shadow-none ml-[12px] hover:translate-y-[12px] hover:translate-x-[-12px] focus:shadow-none focus:translate-y-[12px] focus:translate-x-[-12px] focus:outline focus:outline-orange-500 focus:outline-2;
+    @apply bg-white leading-full font-bold inline-block text-center flex-shrink-0 border border-3 shadow-primary transition-sm select-none hover:shadow-none ml-[12px] hover:translate-y-[12px] hover:translate-x-[-12px] focus:shadow-none focus:translate-y-[12px] focus:translate-x-[-12px] outline-primary;
   }
 
   .btn-sm {
@@ -216,6 +216,17 @@
 
   .btn-lg {
     @apply text-[1.125rem] sm:text-[1.25rem] py-5 px-8;
+  }
+
+  .underline-grow {
+    @apply inline transition-sm no-underline p-0 mx-0 my-6;
+    background: linear-gradient(90deg, #0A0A0A 0, #0A0A0A) no-repeat; /* gray-900 */
+    background-size: 0 0.15rem;
+    background-position: left 98%;
+  }
+
+  .underline-grow:hover {
+    background-size: 100% 0.15rem;
   }
 }
 
@@ -226,5 +237,9 @@
 
   .bg-hero {
     background: url('/assets/images/hero-bg.svg') no-repeat center center/cover;
+  }
+
+  .outline-primary {
+    @apply outline-none focus:outline focus:outline-orange-500 focus:outline-2;
   }
 }

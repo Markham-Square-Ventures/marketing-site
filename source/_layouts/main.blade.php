@@ -13,7 +13,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
     </head>
-    <body class="text-gray-900 font-sans antialiased">
+    <body class="text-gray-900 font-sans antialiased selection:bg-orange-500 selection:text-white">
         @yield('body')
     </body>
 </html>
