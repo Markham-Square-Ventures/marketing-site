@@ -728,26 +728,17 @@ h3 {
     font-size: 1.25rem;
   }
 }
-.m-6 {
-  margin: 1.5rem;
-}
-.mt-16 {
-  margin-top: 4rem;
-}
-.mb-12 {
-  margin-bottom: 3rem;
+.mt-12 {
+  margin-top: 3rem;
 }
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mt-4 {
-  margin-top: 1rem;
-}
-.mt-12 {
-  margin-top: 3rem;
-}
 .mt-8 {
   margin-top: 2rem;
+}
+.mt-4 {
+  margin-top: 1rem;
 }
 .flex {
   display: flex;
@@ -816,11 +807,6 @@ h3 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.shadow-secondary {
-  --tw-shadow: 0px 12px 32px 8px rgba(0, 0, 0, 0.08);
-  --tw-shadow-colored: 0px 12px 32px 8px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
 .transition-sm {
   transition-property: all;
   transition-duration: 150ms;
@@ -853,6 +839,20 @@ h3 {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
+@media (min-width: 768px) {
+
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
+  }
+}
 @media (min-width: 1024px) {
 
   .lg\:p2 {
@@ -874,6 +874,10 @@ h3 {
     margin-top: 3rem;
   }
 
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .lg\:h-12 {
     height: 3rem;
   }
@@ -890,6 +894,12 @@ h3 {
 
   .lg\:pb-16 {
     padding-bottom: 4rem;
+  }
+}
+@media (min-width: 1280px) {
+
+  .xl\:mt-16 {
+    margin-top: 4rem;
   }
 }
 
