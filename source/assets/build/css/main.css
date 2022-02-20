@@ -589,18 +589,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 h1 {
-  font-size: 2.75rem;
+  font-size: 2.25rem;
   font-weight: 900;
-  line-height: 42px;
+  line-height: 36px;
 }
 @media (min-width: 640px) {
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   h1 {
-    line-height: 60px;
+    line-height: 52px;
+  }
+}
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h1 {
+    line-height: 56px;
   }
 }
 @media (min-width: 1024px) {
@@ -610,7 +620,7 @@ h1 {
   }
 
   h1 {
-    line-height: 70px;
+    line-height: 68px;
   }
 }
 h1 { /* 64px */
@@ -730,8 +740,14 @@ h3 {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-12 {
+  margin-top: 3rem;
+}
+.mt-8 {
+  margin-top: 2rem;
 }
 .flex {
   display: flex;
@@ -747,6 +763,9 @@ h3 {
 }
 .max-w-5xl {
   max-width: 64rem;
+}
+.flex-col {
+  flex-direction: column;
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -776,10 +795,6 @@ h3 {
 }
 .font-sans {
   font-family: Gilmer, sans-serif;
-}
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 .text-orange-500 {
   --tw-text-opacity: 1;
@@ -818,6 +833,26 @@ h3 {
   --tw-text-opacity: 1;
   color: rgb(10 10 10 / var(--tw-text-opacity));
 }
+@media (min-width: 640px) {
+
+  .sm\:m-6 {
+    margin: 1.5rem;
+  }
+
+  .sm\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:shadow-secondary {
+    --tw-shadow: 0px 12px 32px 8px rgba(0, 0, 0, 0.08);
+    --tw-shadow-colored: 0px 12px 32px 8px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+}
 @media (min-width: 1024px) {
 
   .lg\:p2 {
@@ -833,6 +868,10 @@ h3 {
 
   .lg\:mt-24 {
     margin-top: 6rem;
+  }
+
+  .lg\:mt-12 {
+    margin-top: 3rem;
   }
 
   .lg\:h-12 {
