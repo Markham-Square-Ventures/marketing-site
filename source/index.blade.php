@@ -18,5 +18,34 @@
             />
         </div>
     </header>
-
+    <x-callout
+      header="You want results, we’re here to help"
+      content="We collaborate with organizations of all shapes and sizes to solve the most pressing product challenges, deliver extraordinary digital experiences, and support product team operations."
+    />
+    <section>
+        <x-scrollcard
+          banner="product"
+          header="strategy"
+          img="chess"
+          color="red"
+        />
+        <x-scrollcard
+          banner="design"
+          header="ideation"
+          img="artboard"
+          color="blue"
+        />
+        <x-scrollcard
+          banner="engineering"
+          header="execution"
+          img="screen"
+          color="green"
+        />
+        <x-scrollcard
+          banner="data + teaching"
+          header="optimize"
+          img="rocket"
+          color="purple"
+        />
+    </section>
 @endsection

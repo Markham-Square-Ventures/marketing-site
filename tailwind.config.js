@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
   content: require('fast-glob').sync([
     'source/**/*.{blade.php,md,html,vue,js}',
   ]),
@@ -50,6 +51,9 @@ module.exports = {
         boxShadow: {
           'primary': '-12px 12px 0px 0px rgba(255, 82, 0, 1)',
           'secondary': '0px 12px 32px 8px rgba(0, 0, 0, 0.08)',
+        },
+        spacing:{
+          '26': '6.5rem'
         }
       },
   },
