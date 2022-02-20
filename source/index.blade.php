@@ -1,17 +1,20 @@
 @extends('_layouts.main')
 
 @section('body')
-    <header class="home-header">
+    <header class="bg-hero shadow-secondary m-6 lg:m-12 p-6 lg:p-12 pb-12 lg:pb-16">
         <x-navigation/>
-        <div class="mt-24 mb-12 space-y-6">
-            <h1 class="font-black text-6xl">
-                We help product teams craft<br/> <span class="text-orange-500">exceptional</span> digital experiences.
+        <div class="mt-16 lg:mt-24 mb-12">
+            <h1 class="h1 max-w-5xl">
+                We help product teams craft <span class="text-orange-500">exceptional</span> digital experiences.
             </h1>
-            <p class="text-base font-medium">
+            <p class="p1 text-gray-800 mt-6">
                 Markham Square is a digital studio that partners with organizations to reach strategic clarity, bring features & products to market, and refine their operations.
             </p>
         </div>
-        <x-button message="Let's Talk" url="#contact" />
+        <x-button
+            message="Let's talk"
+            url="#contact"
+        />
     </header>
 
 @endsection

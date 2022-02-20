@@ -1,5 +1,5 @@
 <img
-    src="/assets/images/logo.svg"
+    src='/assets/images/logo.svg'
     alt="The Markham Square logo of a black square with an orange square on top."
-    class="h-12"
+    class="w-full h-full"
 >

@@ -1,9 +1,7 @@
 module.exports = {
-  purge: [
-    'source/**/*.blade.php',
-    'source/**/*.md',
-    'source/**/*.html',
-  ],
+  content: require('fast-glob').sync([
+    'source/**/*.{blade.php,md,html,vue,js}',
+  ]),
   theme: {
       colors: {
         'orange': {
@@ -30,26 +28,30 @@ module.exports = {
           50:"#F7FFFB",
           500:'#009946'
         },
+        'gray': {
+          100: "#EDECEB",
+          700: "#6B6867",
+          800: "#42403E",
+          900: "#0A0A0A",
+        },
+        'white': '#ffffff',
       },
       fontFamily: {
         'sans': ['Gilmer', 'sans-serif'],
       },
-      fontSize:{
-        'sm':[
-          '20px'
-        ],
-        'base':['24px',{
-          lineHeight: '38px',
-         }],
-        '6xl': ['64px', {
-          lineHeight: '70px',
-        }],
-      },
       extend: {
+        borderWidth: {
+          '3': '3px',
+        },
+        lineHeight: {
+          'extra-loose': '2.5',
+          'full': '100%',
+        },
+        boxShadow: {
+          'primary': '-12px 12px 0px 0px rgba(255, 82, 0, 1)',
+          'secondary': '0px 12px 32px 8px rgba(0, 0, 0, 0.08)',
+        }
       },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };
