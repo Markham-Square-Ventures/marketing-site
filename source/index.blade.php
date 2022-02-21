@@ -22,7 +22,7 @@
       header="You want results, we’re here to help"
       content="We collaborate with organizations of all shapes and sizes to solve the most pressing product challenges, deliver extraordinary digital experiences, and support product team operations."
     />
-    <section>
+    <section class="scrolling-wrapper">
         <x-scrollcard
           banner="product"
           header="strategy"
