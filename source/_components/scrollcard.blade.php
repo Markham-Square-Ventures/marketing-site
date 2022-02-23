@@ -68,11 +68,11 @@
   ];
   @endphp
 
-<div class="flex flex-shrink-0 h-screen w-screen items-center {{ $colors[$color]['bg']}}">
-  <div class="w-1/3 h-full flex justify-center {{$color === 'red' ? 'items-end' : 'self-center'}}">
+<div class="flex flex-wrap flex-shrink-0 h-screen w-screen items-center {{ $colors[$color]['bg']}}">
+  <div class="hidden lg:flex lg:w-1/3 h-full  justify-center {{$color === 'red' ? 'items-end' : 'self-center'}}">
     <img class="{{$color === 'red' ? 'h-4/5' : 'h-full'}}" src="/assets/images/{{$img}}.svg"/>
   </div>
-  <div class="pl-48 w-2/3">
+  <div class="pl-24 lg:pl-48 w-full lg:w-2/3">
     <p class="{{ $colors[$color]['text']}} uppercase l2">{{$banner}}</p>
     <!-- Header -->
     <div class="flex items-center mt-4 gap-x-5" >
