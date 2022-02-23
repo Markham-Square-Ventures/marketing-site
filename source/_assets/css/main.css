@@ -1,9 +1,6 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-
-
 @import 'tailwindcss/utilities';
-
 
 @layer base {
   /*
@@ -174,15 +171,15 @@
 
 
 @layer components {
-  h1 {
+  .h1 {
     @apply text-[2.25rem] leading-[36px] sm:text-[3rem] sm:leading-[52px] md:text-[3.25rem] md:leading-[56px] lg:text-[4rem] lg:leading-[68px] font-black; /* 64px */
   }
 
-  h2 {
+  .h2 {
     @apply text-[3rem] leading-[54px] font-black; /* 48px */
   }
 
-  h3 {
+  .h3 {
     @apply text-[2rem] font-bold; /* 32px */
   }
 
@@ -243,13 +240,10 @@
     @apply outline-none focus:outline focus:outline-orange-500 focus:outline-2;
   }
   .scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-  }
-  .scroll-card {
-    @apply inline-flex;
   }
 }
 
