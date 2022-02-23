@@ -39,13 +39,14 @@ module.exports = {
       },
       fontFamily: {
         'sans': ['Gilmer', 'sans-serif'],
+        'cursive': ['Auto Rich', 'cursive'],
       },
       extend: {
         borderWidth: {
           '3': '3px',
         },
         lineHeight: {
-          'extra-loose': '2.5',
+          'extra-loose': '3',
           'full': '100%',
         },
         boxShadow: {

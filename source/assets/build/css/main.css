@@ -544,6 +544,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'Auto Rich';
+    src: url('/assets/fonts/auto-rich.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -710,6 +717,24 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .p2 { /* 20px */
   }
+.p3 {
+  font-size: .875rem;
+  line-height: 100%;
+}
+@media (min-width: 640px) {
+
+  .p3 {
+    font-size: .925rem;
+  }
+}
+@media (min-width: 1024px) {
+
+  .p3 {
+    font-size: 1rem;
+  }
+}
+.p3 { /* 16px */
+  }
 .l2 {
   font-size: 1rem;
   font-weight: 900;
@@ -836,14 +861,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-0 {
   margin-top: 0px;
 }
-.mt-1 {
-  margin-top: 0.25rem;
+.mt-7 {
+  margin-top: 1.75rem;
 }
 .mt-5 {
   margin-top: 1.25rem;
 }
 .mt-3 {
   margin-top: 0.75rem;
+}
+.mt-\[8px\] {
+  margin-top: 8px;
 }
 .flex {
   display: flex;
@@ -860,29 +888,23 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-10 {
   height: 2.5rem;
 }
+.h-16 {
+  height: 4rem;
+}
 .h-screen {
   height: 100vh;
 }
 .h-4\/5 {
   height: 80%;
 }
-.h-16 {
-  height: 4rem;
-}
 .w-full {
   width: 100%;
 }
-.w-screen {
-  width: 100vw;
-}
-.w-1\/3 {
-  width: 33.333333%;
-}
-.w-2\/3 {
-  width: 66.666667%;
-}
 .w-16 {
   width: 4rem;
+}
+.w-screen {
+  width: 100vw;
 }
 .max-w-5xl {
   max-width: 64rem;
@@ -893,8 +915,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .max-w-\[800px\] {
   max-width: 800px;
 }
-.max-w-\[700px\] {
-  max-width: 700px;
+.max-w-\[1000px\] {
+  max-width: 1000px;
 }
 .max-w-\[740px\] {
   max-width: 740px;
@@ -932,9 +954,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .items-center {
   align-items: center;
 }
-.items-baseline {
-  align-items: baseline;
-}
 .justify-end {
   justify-content: flex-end;
 }
@@ -953,16 +972,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
 .self-center {
   align-self: center;
 }
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-red-50 {
   --tw-bg-opacity: 1;
@@ -983,21 +1001,47 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-6 {
   padding: 1.5rem;
 }
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.px-26 {
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
+}
 .pb-12 {
   padding-bottom: 3rem;
-}
-.pl-48 {
-  padding-left: 12rem;
 }
 .pl-24 {
   padding-left: 6rem;
 }
+.text-center {
+  text-align: center;
+}
 .font-sans {
   font-family: Gilmer, sans-serif;
+}
+.font-cursive {
+  font-family: Auto Rich, cursive;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.font-medium {
+  font-weight: 500;
 }
 .font-black {
   font-weight: 900;
@@ -1011,8 +1055,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .leading-relaxed {
   line-height: 1.625;
 }
-.leading-7 {
-  line-height: 1.75rem;
+.leading-loose {
+  line-height: 2;
 }
 .text-orange-500 {
   --tw-text-opacity: 1;
@@ -1150,22 +1194,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:mt-12 {
     margin-top: 3rem;
   }
-
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:w-1\/3 {
-    width: 33.333333%;
-  }
-
-  .md\:w-2\/3 {
-    width: 66.666667%;
-  }
-
-  .md\:pl-48 {
-    padding-left: 12rem;
-  }
 }
 @media (min-width: 1024px) {
 
@@ -1184,10 +1212,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:mt-3 {
     margin-top: 0.75rem;
-  }
-
-  .lg\:block {
-    display: block;
   }
 
   .lg\:flex {

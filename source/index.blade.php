@@ -58,12 +58,9 @@
         />
       </div>
     </section>
-    <x-callout
-      header="You want results, we’re here to help"
-      content="We collaborate with organizations of all shapes and sizes to solve the most pressing product challenges, deliver extraordinary digital experiences, and support product team operations."
-    />
-    <x-callout
-      header="You want results, we’re here to help"
-      content="We collaborate with organizations of all shapes and sizes to solve the most pressing product challenges, deliver extraordinary digital experiences, and support product team operations."
+    <x-quote 
+      name="Michael Riddering"
+      quote="Markham Square is the bees knees! Working with them was the highlight of my career, and I can't wait to do it again."
+      role="Founding Product Designer, Maven"
     />
 @endsection
