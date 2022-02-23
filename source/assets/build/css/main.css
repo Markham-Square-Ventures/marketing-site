@@ -711,7 +711,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p2 { /* 20px */
   }
 .l2 {
-  font-size: 1rem; /* 16px */
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: .25em; /* 16px */
 }
 .btn {
   margin-left: 12px;
@@ -834,8 +836,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-0 {
   margin-top: 0px;
 }
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
 .flex {
   display: flex;
+}
+.grid {
+  display: grid;
 }
 .h-full {
   height: 100%;
@@ -876,6 +890,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .max-w-\[800px\] {
   max-width: 800px;
 }
+.max-w-\[700px\] {
+  max-width: 700px;
+}
+.max-w-\[740px\] {
+  max-width: 740px;
+}
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -884,6 +904,18 @@ Ensure the default browser behavior of the `hidden` attribute.
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+.list-inside {
+  list-style-position: inside;
+}
+.list-disc {
+  list-style-type: disc;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -909,10 +941,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-between {
   justify-content: space-between;
 }
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 .self-center {
   align-self: center;
@@ -948,6 +989,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-sans {
   font-family: Gilmer, sans-serif;
 }
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.font-black {
+  font-weight: 900;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -956,6 +1004,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .leading-relaxed {
   line-height: 1.625;
+}
+.leading-7 {
+  line-height: 1.75rem;
 }
 .text-orange-500 {
   --tw-text-opacity: 1;

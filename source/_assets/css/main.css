@@ -200,7 +200,7 @@
   }
 
   .l2 {
-    @apply text-[1rem]; /* 16px */
+    @apply text-[1rem] font-black tracking-[.25em]; /* 16px */
   }
 
   .btn {

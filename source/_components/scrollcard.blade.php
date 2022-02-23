@@ -29,9 +29,44 @@
       'text' => 'text-purple-500',
       'bg'=> 'bg-purple-50',
     ],
+  ];
 
-  ]
-@endphp
+  $services = [
+    'strategy' =>[
+      'User & market research',
+      'Competitive & gap analysis',
+      'Product/service strategy',
+      'Facilitated workshops',
+      'Product roadmap',
+      'Stakeholder alignment',
+    ],
+    'ideation' =>[
+      'User & market research',
+      'Competitive & gap analysis',
+      'Product/service strategy',
+      'Facilitated workshops',
+      'Product roadmap',
+      'Stakeholder alignment',
+    ],
+    'execution' =>[
+      'User & market research',
+      'Competitive & gap analysis',
+      'Product/service strategy',
+      'Facilitated workshops',
+      'Product roadmap',
+      'Stakeholder alignment',
+    ],
+    'optimize' =>[
+      'User & market research',
+      'Competitive & gap analysis',
+      'Product/service strategy',
+      'Facilitated workshops',
+      'Product roadmap',
+      'Stakeholder alignment',
+    ],
+    
+  ];
+  @endphp
 
 <div class="flex flex-shrink-0 h-screen w-screen items-center {{ $colors[$color]['bg']}}">
   <div class="w-1/3 h-full flex justify-center {{$color === 'red' ? 'items-end' : 'self-center'}}">
@@ -40,9 +75,24 @@
   <div class="pl-48 w-2/3">
     <p class="{{ $colors[$color]['text']}} uppercase l2">{{$banner}}</p>
     <!-- Header -->
-    <div class="flex items-baseline" >
+    <div class="flex items-center mt-4 gap-x-5" >
       <img class="w-16 h-16" src="/assets/images/{{$header}}.svg" alt="">
       <h3 class="h1 capitalize">{{$header}}</h3>
     </div>
+    <!-- Content -->
+    <div class="mt-5 max-w-[740px]">
+      <p class="p1">
+        <span class="font-black {{ $colors[$color]['text']}}">
+          {{$boldline}}
+        </span>
+          {{$content}}
+      </p>
+    </div>
+    <!-- Services -->
+    <ol class="mt-5 max-w-[740px] grid grid-cols-2 grid-rows-3 list-inside	">
+        @foreach ($services[$header] as $service)
+          <li class="text-xl mt-3 list-disc">{{$service}}</li>
+        @endforeach
+    </ol>
   </div>
 </div>

@@ -29,24 +29,32 @@
           header="strategy"
           img="chess"
           color="red"
+          boldline="Be confident in your next step."
+          content="We help you identify and align on the initiatives and priorities that maximize your success."
         />
         <x-scrollcard
           banner="design"
           header="ideation"
           img="artboard"
           color="blue"
+          boldline="Understand what’s possible."
+          content="We explore every opportunity to help you uncover the best path forward."
         />
         <x-scrollcard
           banner="engineering"
           header="execution"
           img="screen"
           color="green"
+          boldline="Bring your ideas to life."
+          content="We translate your visions and dreams into digital product experiences that surpass your wildest expectations."
         />
         <x-scrollcard
           banner="data + teaching"
           header="optimize"
           img="rocket"
           color="purple"
+          boldline="Keep getting better."
+          content="We empower your team to unlock their full potential and compound their successes."
         />
       </div>
     </section>
