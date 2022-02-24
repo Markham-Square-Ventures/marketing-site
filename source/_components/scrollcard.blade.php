@@ -68,7 +68,7 @@
   ];
   @endphp
 
-<div class="flex flex-wrap flex-shrink-0 h-screen w-screen items-center {{ $colors[$color]['bg']}}">
+<div class="js-scroll-card flex flex-wrap flex-shrink-0 h-screen w-screen items-center {{ $colors[$color]['bg']}}">
   <div class="hidden lg:flex lg:w-1/3 h-full  justify-center {{$color === 'red' ? 'items-end' : 'self-center'}}">
     <img class="{{$color === 'red' ? 'h-4/5' : 'h-full'}}" src="/assets/images/{{$img}}.svg"/>
   </div>

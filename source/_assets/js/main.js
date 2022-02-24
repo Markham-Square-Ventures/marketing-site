@@ -1,47 +1,38 @@
-init();
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-var g_containerInViewport;
-function init() {
-  setStickyContainersSize();
-  bindEvents();
-}
+gsap.registerPlugin(ScrollTrigger);
 
-function bindEvents() {
-  window.addEventListener("wheel", wheelHandler);
-}
+const sections = gsap.utils.toArray(".js-scroll-card");
 
-function setStickyContainersSize() {
-  document.querySelectorAll(".sticky-container").forEach(function (container) {
-    const stickyContainerHeight = container.offsetWidth * 4 - 40;
-    container.setAttribute("style", "height: " + stickyContainerHeight + "px");
+let maxWidth = 0;
+
+const getMaxWidth = () => {
+  maxWidth = 0;
+  sections.forEach((section) => {
+    maxWidth += section.offsetWidth;
   });
-}
+};
 
-function isElementInViewport(el) {
-  const rect = el.getBoundingClientRect();
-  return rect.top <= 0 && rect.bottom > document.documentElement.clientHeight;
-}
+getMaxWidth();
+ScrollTrigger.addEventListener("refreshInit", getMaxWidth);
 
-function wheelHandler(evt) {
-  const containerInViewPort = Array.from(
-    document.querySelectorAll(".sticky-container")
-  ).filter(function (container) {
-    return isElementInViewport(container);
-  })[0];
-
-  if (!containerInViewPort) {
-    return;
+gsap.to(sections, {
+  x: () => `-${maxWidth - window.innerWidth}`,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#services",
+    pin: true,
+    scrub: true,
+    end: () => `+=${maxWidth}`,
+    invalidateOnRefresh: true
   }
+});
 
-  var isPlaceHolderBelowTop =
-    containerInViewPort.offsetTop < document.documentElement.scrollTop;
-  var isPlaceHolderBelowBottom =
-    containerInViewPort.offsetTop + containerInViewPort.offsetHeight >
-    document.documentElement.scrollTop;
-  let g_canScrollHorizontally =
-    isPlaceHolderBelowTop && isPlaceHolderBelowBottom;
-
-  if (g_canScrollHorizontally) {
-    containerInViewPort.querySelector("div").scrollLeft += evt.deltaY;
-  }
-}
+sections.forEach((sct, i) => {
+  ScrollTrigger.create({
+    trigger: sct,
+    start: () => 'top top-=' + (sct.offsetLeft - window.innerWidth/2) * (maxWidth / (maxWidth - window.innerWidth)),
+    end: () => '+=' + sct.offsetWidth * (maxWidth / (maxWidth - window.innerWidth)),
+  });
+});
