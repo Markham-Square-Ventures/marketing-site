@@ -64,4 +64,5 @@
       role="Founding Product Designer, Maven"
     />
     <x-contact />
+    <x-footer/>
 @endsection

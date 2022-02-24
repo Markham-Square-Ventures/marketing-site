@@ -242,6 +242,9 @@
   .bg-hero {
     background: url('/assets/images/hero-bg.svg') no-repeat center center/cover;
   }
+  .bg-footer{
+    background: url('/assets/images/footer-bg.svg') no-repeat center center/cover #000;
+  }
 
   .outline-primary {
     @apply outline-none focus:outline focus:outline-orange-500 focus:outline-2;
