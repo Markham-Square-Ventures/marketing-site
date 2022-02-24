@@ -203,11 +203,11 @@
   }
 
   .l1 {
-    @apply text-[1.25rem] leading-full; /* 20px */
+    @apply font-black text-[1.25rem] leading-full tracking-[.25em]; /* 20px */
   }
 
   .l2 {
-    @apply text-[1rem] font-black tracking-[.25em]; /* 16px */
+    @apply font-black text-[1rem] tracking-[.25em]; /* 16px */
   }
 
   .btn {

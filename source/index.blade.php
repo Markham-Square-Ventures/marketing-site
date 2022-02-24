@@ -63,4 +63,5 @@
       quote="Markham Square is the bees knees! Working with them was the highlight of my career, and I can't wait to do it again."
       role="Founding Product Designer, Maven"
     />
+    <x-contact />
 @endsection
