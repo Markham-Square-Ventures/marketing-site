@@ -24,10 +24,11 @@
       </button>
     </form>
   
-    <div class="mt-8 lg:-mt-24 bg-white border-3 shadow-secondary max-w-[570px] mx-auto px-12 pt-12 pb-14">
+    <div class="absolute right-0 mt-8 lg:-mt-24 bg-white border-3 shadow-secondary max-w-[666px] mx-auto px-12 pt-12 pb-14">
       <p class="h3">Need help deciding?</p>
       <p class="p1 mb-6">Schedule a free, 30 minute discovery call to find the best option for you.</p>
       <x-button url="https://calendly.com/" message="Schedule a call"/>
     </div>
   </div>
 </section>
+<section class="bg-orange-50 h-72"></section>
