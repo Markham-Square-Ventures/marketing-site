@@ -901,9 +901,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-3 {
   margin-top: 0.75rem;
 }
-.mr-24 {
-  margin-right: 6rem;
-}
 .flex {
   display: flex;
 }
@@ -1246,6 +1243,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .sm\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .sm\:shadow-secondary {
     --tw-shadow: 0px 12px 32px 8px rgba(0, 0, 0, 0.08);
     --tw-shadow-colored: 0px 12px 32px 8px var(--tw-shadow-color);
@@ -1253,10 +1255,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 @media (min-width: 768px) {
-
-  .md\:absolute {
-    position: absolute;
-  }
 
   .md\:mt-6 {
     margin-top: 1.5rem;
@@ -1268,6 +1266,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:mt-7 {
     margin-top: 1.75rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:h-16 {
@@ -1321,20 +1323,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 6rem;
   }
 
-  .lg\:-mt-10 {
-    margin-top: -2.5rem;
+  .lg\:-mt-24 {
+    margin-top: -6rem;
   }
 
   .lg\:mt-3 {
     margin-top: 0.75rem;
-  }
-
-  .lg\:-mt-20 {
-    margin-top: -5rem;
-  }
-
-  .lg\:-mt-24 {
-    margin-top: -6rem;
   }
 
   .lg\:flex {
@@ -1355,6 +1349,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:p-12 {
     padding: 3rem;
+  }
+
+  .lg\:px-26 {
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
   }
 
   .lg\:pb-16 {

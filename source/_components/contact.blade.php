@@ -1,5 +1,5 @@
-<section class="bg-orange-50 relative w-full py-24 mx-6 sm:mx-12 lg:mx-26">
-  <img src="../assets/images/contact-bg.svg" alt="" class="hidden md:absolute top-0 right-0 z-0"/>
+<section class="bg-orange-50 relative w-full py-24 px-6 sm:px-12 lg:px-26">
+  <img src="../assets/images/contact-bg.svg" alt="" class="hidden md:block absolute top-0 right-0 z-0"/>
 
   <h3 class="h2">We would love to <br/>work with your project.</h3>
   <div class="relative">
