@@ -222,14 +222,25 @@
     @apply text-[1.125rem] sm:text-[1.25rem] py-5 px-8;
   }
 
-  .underline-grow {
+  .underline-grow-gray-900 {
     @apply inline transition-sm no-underline p-0 mx-0 my-6;
-    background: linear-gradient(90deg, #0A0A0A 0, #0A0A0A) no-repeat; /* gray-900 */
+    background: linear-gradient(90deg, #0A0A0A 0, #0A0A0A) no-repeat;
     background-size: 0 0.15rem;
     background-position: left 98%;
   }
 
-  .underline-grow:hover {
+  .underline-grow-gray-900:hover {
+    background-size: 100% 0.15rem;
+  }
+
+  .underline-grow-white {
+    @apply inline transition-sm no-underline p-0 mx-0 my-6;
+    background: linear-gradient(90deg, #FFFFFF 0, #FFFFFF) no-repeat;
+    background-size: 0 0.15rem;
+    background-position: left 98%;
+  }
+
+  .underline-grow-white:hover {
     background-size: 100% 0.15rem;
   }
 

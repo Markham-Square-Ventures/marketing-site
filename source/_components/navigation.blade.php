@@ -3,8 +3,8 @@
     <x-logo/>
   </a>
   <div class="mt-0 sm:mt-2 lg:mt-3 space-x-8 sm:space-x-16 flex flex-wrap items-end justify-end select-none">
-    <a class="p2 leading-relaxed text-gray-700 hover:text-gray-900 underline-grow transition-sm outline-primary" href="/work">Work</a>
-    <a class="p2 leading-relaxed text-gray-700 hover:text-gray-900 underline-grow transition-sm outline-primary" href="/about">About</a>
-    <a class="p2 leading-relaxed text-gray-700 hover:text-gray-900 underline-grow transition-sm outline-primary" href="/contact">Contact</a>
+    <a class="p2 leading-relaxed text-gray-700 hover:text-gray-900 underline-grow-gray-900 transition-sm outline-primary" href="/work">Work</a>
+    <a class="p2 leading-relaxed text-gray-700 hover:text-gray-900 underline-grow-gray-900 transition-sm outline-primary" href="/about">About</a>
+    <a class="p2 leading-relaxed text-gray-700 hover:text-gray-900 underline-grow-gray-900 transition-sm outline-primary" href="/contact">Contact</a>
   </div>
 </nav>
