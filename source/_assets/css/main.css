@@ -179,23 +179,23 @@
 
 @layer components {
   .h1 {
-    @apply text-[2.25rem] leading-[36px] sm:text-[3rem] sm:leading-[52px] md:text-[3.25rem] md:leading-[56px] lg:text-[4rem] lg:leading-[68px] font-black; /* 64px */
+    @apply text-[2.4rem] leading-[42px] sm:text-[3rem] sm:leading-[52px] md:text-[3.25rem] md:leading-[56px] lg:text-[4rem] lg:leading-[68px] font-black; /* 64px */
   }
 
   .h2 {
-    @apply text-[3rem] leading-[54px] font-black; /* 48px */
+    @apply text-[1.85rem] leading-[32px] sm:text-[2.25rem] sm:leading-[42px] md:text-[2.75rem] md:leading-[48px] lg:text-[3rem] lg:leading-[54px] font-black; /* 48px */
   }
 
   .h3 {
-    @apply text-[2rem] font-bold; /* 32px */
+    @apply text-[1.55em] leading-[28px] sm:text-[1.65rem] sm:leading-[42px] md:text-[1.85rem] md:leading-[48px] lg:text-[2rem] lg:leading-[54px] font-bold; /* 32px */
   }
 
   .p1 {
-    @apply text-[1rem] leading-[28px] sm:text-[1.25rem] sm:leading-[34px] lg:text-[1.5rem] lg:leading-[38px]; /* 24px */
+    @apply text-[1.125rem] leading-[28px] sm:text-[1.3rem] sm:leading-[34px] lg:text-[1.5rem] lg:leading-[38px]; /* 24px */
   }
 
   .p2 {
-    @apply text-[1rem] sm:text-[1.15rem] lg:text-[1.25rem]; /* 20px */
+    @apply text-[1.05rem] sm:text-[1.15rem] lg:text-[1.25rem]; /* 20px */
   }
 
   .p3 {
@@ -203,15 +203,15 @@
   }
 
   .l1 {
-    @apply font-black text-[1.25rem] leading-full tracking-[.25em]; /* 20px */
+    @apply font-black text-[1rem] lg:text-[1.25rem] leading-full tracking-[.25em]; /* 20px */
   }
 
   .l2 {
-    @apply font-black text-[1rem] tracking-[.25em]; /* 16px */
+    @apply font-black text-[.9rem] lg:text-[1rem] tracking-[.25em]; /* 16px */
   }
 
   .btn {
-    @apply bg-white leading-full font-bold inline-block text-center flex-shrink-0 border border-3 shadow-primary transition-sm select-none hover:shadow-none ml-[12px] hover:translate-y-[12px] hover:translate-x-[-12px] focus:shadow-none focus:translate-y-[12px] focus:translate-x-[-12px] outline-primary;
+    @apply bg-white leading-full font-bold inline-block text-center text-gray-900 flex-shrink-0 border-gray-900 border-3 shadow-primary transition-sm select-none hover:border-orange-500 hover:text-orange-500 hover:shadow-none ml-[12px] hover:translate-y-[12px] hover:translate-x-[-12px] focus:shadow-none focus:translate-y-[12px] focus:translate-x-[-12px] outline-primary;
   }
 
   .btn-sm {
@@ -232,6 +232,10 @@
   .underline-grow:hover {
     background-size: 100% 0.15rem;
   }
+
+  .input {
+    @apply w-full border-gray-900 border-3 px-6 py-6 p2 transition-sm outline-primary;
+  }
 }
 
 @layer utilities {
@@ -242,13 +246,14 @@
   .bg-hero {
     background: url('/assets/images/hero-bg.svg') no-repeat center center/cover;
   }
+
   .bg-footer{
     background: url('/assets/images/footer-bg.svg') no-repeat center center/cover #000;
   }
-
   .outline-primary {
     @apply outline-none focus:outline focus:outline-orange-500 focus:outline-2;
   }
+
   .scrolling-wrapper {
     /* overflow-y: hidden; */
     overflow-x: hidden;
