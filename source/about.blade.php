@@ -92,10 +92,10 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-12">
       @foreach ($reasons as $reason)
-        <div class="space-y-6">
+        <div >
           <img src="{{$reason['icon']}}" alt="{{$reason['icon_alt']}}">
-          <h3 class="h3">{{$reason['header']}}</h3>
-          <p class="p1">{{$reason['body']}}</p>
+          <h3 class="h3 mt-6">{{$reason['header']}}</h3>
+          <p class="p1 mt-2">{{$reason['body']}}</p>
         </div>
       @endforeach
     </div>
