@@ -1,3 +1,8 @@
+---
+title: About | Markham Square
+description: Learn more about Markham Square
+---
+
 @php
   $values = [
     [

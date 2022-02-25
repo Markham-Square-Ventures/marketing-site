@@ -1,7 +1,7 @@
 <!-- /* The essentials */ -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{$page_name}} | Markham Square</title>
+<meta property="og:title" content="{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
 <meta name="description" content="Describes what the page is about in human terms - max 160 characters!">
 
 <!-- /* Open Graph tags for FB & Twitter */ -->
