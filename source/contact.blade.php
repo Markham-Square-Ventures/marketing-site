@@ -4,7 +4,7 @@
   <header class="bg-hero sm:shadow-secondary sm:m-6 lg:m-12 pt-12 pb-16 px-6 lg:p-12 lg:pt-16">
       <x-navigation/>
       <div class="mt-12 lg:mt-24 mb-8 md:mb-12 xl:mb-16 max-w-5xl">
-          <h1 class="font-black text-10xl leading-full">
+          <h1 class="font-black text-6xl md:text-9xl lg:text-10xl leading-full">
               Contact
           </h1>
           <p class="p1 text-gray-800 mt-4 md:mt-8">

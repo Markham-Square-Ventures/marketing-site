@@ -4,9 +4,9 @@
       <div class=>
         <img class="mx-auto lg:mx-0 w-40 lg:w-60" src="../assets/images/logo-inverted.svg" alt="Markham Square Logo"/>
         <nav class="mt-8 flex justify-center lg:justify-start">
-          <a class="p2 leading-relaxed text-white hover:text-gray-100 underline-grow-white transition-sm outline-primary" href="">Work</a>
-          <a class="p2 leading-relaxed text-white hover:text-gray-100 underline-grow-white transition-sm outline-primary ml-12" href="">About</a>
-          <a class="p2 leading-relaxed text-white hover:text-gray-100 underline-grow-white transition-sm outline-primary ml-12" href="">Contact</a>
+          <a class="p2 leading-relaxed text-white hover:text-gray-100 underline-grow-white transition-sm outline-primary" href="/work">Work</a>
+          <a class="p2 leading-relaxed text-white hover:text-gray-100 underline-grow-white transition-sm outline-primary ml-12" href="/about">About</a>
+          <a class="p2 leading-relaxed text-white hover:text-gray-100 underline-grow-white transition-sm outline-primary ml-12" href="/contact">Contact</a>
         </nav>
       </div>
       <div class="hidden lg:inline-block md:text-right">
