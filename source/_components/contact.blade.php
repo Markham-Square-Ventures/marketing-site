@@ -9,15 +9,15 @@
   
       <div class="mt-8 space-y-2">
         <label class="uppercase l1 text-gray-900" for="">Name</label>
-        <input class="input mt-2" name="name" type="text"/>
+        <input class="input mt-2" name="name" required type="text"/>
       </div>
       <div class="mt-8 space-y-2">
         <label class="uppercase l1" for="">Email</label>
-        <input class="input" name="email" type="email"/>
+        <input class="input" name="email" required type="email"/>
       </div>
       <div class="mt-8 space-y-2">
         <label class="uppercase l1" for="">Message</label>
-        <textarea class="input mt-" name="message" rows="8"></textarea>
+        <textarea class="input mt-" name="message" required rows="8"></textarea>
       </div>
       <button type="submit" class="btn btn-lg mt-6">
         Send
