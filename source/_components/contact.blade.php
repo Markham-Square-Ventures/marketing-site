@@ -3,7 +3,7 @@
 
   <h3 class="h2">We would love to <br class="hidden md:inline"/>work with you</h3>
   <div class="relative max-w-6xl mt-6 md:mt-20">
-    <form name="contact" method="POST" data-netlify="true" class="p-6 pb-9 md:p-12 md:pb-16 lg:max-w-4xl bg-white shadow-secondary ">
+    <form name="contact" method="POST" data-netlify="true"  action="/thank-you" class="p-6 pb-9 md:p-12 md:pb-16 lg:max-w-4xl bg-white shadow-secondary ">
       <p class="h3 text-gray-900">Have a project in mind?</p>
       <p class="p1 text-gray-800 mt-2">Let us know and we'll get back to you right away.</p>
   
