@@ -92,10 +92,10 @@
     <h3 class="h2">Why work with us</h3>
     <p class="max-w-3xl p1 mt-4 text-gray-800">We build strong, long-lasting partnerships with our clients to support them today, and tomorrow.</p>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 xl:gap-x-20 mt-12 max-w-7xl">
       @foreach ($reasons as $reason)
         <div>
-          <img src="{{$reason['icon']}}" alt="{{$reason['icon_alt']}}">
+          <img src="{{$reason['icon']}}" alt="{{$reason['icon_alt']}}" class="h-16 w-auto">
           <h3 class="h3 mt-6 text-gray-900">{{$reason['header']}}</h3>
           <p class="p1 mt-2 text-gray-800">{{$reason['body']}}</p>
         </div>

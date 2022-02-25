@@ -28,7 +28,7 @@
       <p class="h3 text-gray-900">Need help deciding?</p>
       <p class="p1 text-gray-800 mt-2">Schedule a free, 30 minute discovery call to find the best option for you.</p>
       <div class="mt-6">
-        <x-button url="https://calendly.com/" message="Schedule a call"/>
+        <x-button url="https://calendly.com/markhamsquare/consultation" message="Schedule a call"/>
       </div>
     </div>
   </div>

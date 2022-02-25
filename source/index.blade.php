@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-    <header class="bg-hero sm:shadow-secondary sm:m-6 lg:m-12 pt-12 pb-16 px-6 lg:p-12 lg:pt-16">
+    <header class="bg-hero sm:shadow-secondary sm:m-6 lg:m-12 pt-12 pb-16 px-6 lg:p-12 lg:pt-16 xl:pb-24">
         <x-navigation/>
         <div class="mt-8 sm:mt-12 lg:mt-24 max-w-5xl">
             <h1 class="h1">

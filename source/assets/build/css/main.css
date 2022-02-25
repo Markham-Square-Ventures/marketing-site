@@ -1105,6 +1105,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hidden {
   display: none;
 }
+.h-16 {
+  height: 4rem;
+}
 .h-8 {
   height: 2rem;
 }
@@ -1123,11 +1126,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-4\/5 {
   height: 80%;
 }
-.h-16 {
-  height: 4rem;
-}
 .w-full {
   width: 100%;
+}
+.w-auto {
+  width: auto;
 }
 .w-40 {
   width: 10rem;
@@ -1141,14 +1144,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-screen {
   width: 100vw;
 }
-.w-auto {
-  width: auto;
-}
 .max-w-5xl {
   max-width: 64rem;
 }
 .max-w-3xl {
   max-width: 48rem;
+}
+.max-w-4xl {
+  max-width: 56rem;
 }
 .max-w-7xl {
   max-width: 80rem;
@@ -1158,9 +1161,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-6xl {
   max-width: 72rem;
-}
-.max-w-4xl {
-  max-width: 56rem;
 }
 .flex-shrink-0 {
   flex-shrink: 0;
@@ -1628,8 +1628,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 1rem;
   }
 
-  .md\:mt-8 {
-    margin-top: 2rem;
+  .md\:mt-2 {
+    margin-top: 0.5rem;
   }
 
   .md\:mt-20 {
@@ -1642,14 +1642,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:mt-4 {
     margin-top: 1rem;
-  }
-
-  .md\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
-  .md\:mt-2 {
-    margin-top: 0.5rem;
   }
 
   .md\:block {
@@ -1674,10 +1666,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:items-start {
-    align-items: flex-start;
   }
 
   .md\:justify-end {
@@ -1801,6 +1789,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1.5rem;
   }
 
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1883,6 +1875,22 @@ Ensure the default browser behavior of the `hidden` attribute.
     border-color: rgb(255 255 255 / var(--tw-border-opacity));
   }
 
+  .lg\:border-white\/50 {
+    border-color: rgb(255 255 255 / 0.5);
+  }
+
+  .lg\:border-white\/30 {
+    border-color: rgb(255 255 255 / 0.3);
+  }
+
+  .lg\:border-white\/10 {
+    border-color: rgb(255 255 255 / 0.1);
+  }
+
+  .lg\:border-white\/20 {
+    border-color: rgb(255 255 255 / 0.2);
+  }
+
   .lg\:p-12 {
     padding: 3rem;
   }
@@ -1953,6 +1961,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:justify-start {
     justify-content: flex-start;
+  }
+
+  .xl\:gap-x-20 {
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
+  }
+
+  .xl\:pb-24 {
+    padding-bottom: 6rem;
   }
 
   .xl\:pl-48 {
