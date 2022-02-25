@@ -21,6 +21,7 @@
     <x-callout
       header="You want results, we’re here to help"
       content="We collaborate with organizations of all shapes and sizes to solve the most pressing product challenges, deliver extraordinary digital experiences, and support product team operations."
+      signature=""
     />
     <section id="services" class="sticky-container">
       <div class="overflow-x-hidden flex sticky top-0">

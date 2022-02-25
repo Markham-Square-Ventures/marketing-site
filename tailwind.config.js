@@ -58,6 +58,9 @@ module.exports = {
         },
         fontSize:{
           '10xl': '10rem'
+        },
+        gridTemplateColumns: {
+          'values': '45px, minmax(0, 1fr)',
         }
       },
   },
