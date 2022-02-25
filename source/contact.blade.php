@@ -7,9 +7,15 @@
           <h1 class="font-black text-6xl md:text-9xl lg:text-10xl leading-full">
               Contact
           </h1>
-          <p class="p1 text-gray-800 mt-4 md:mt-8">
-          We'd love to hear about your next big idea!
+          <p class="p1 text-gray-800 mt-4 md:mt-6">
+            Ready to kick off your next project?
           </p>
+          <div class="mt-8 md:mt-12 xl:mt-16">
+            <x-button
+                message="Let's talk"
+                url="#contact"
+            />
+        </div>
       </div>
   </header>
   <x-contact />

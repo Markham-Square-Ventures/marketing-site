@@ -1,9 +1,9 @@
 <footer class="bg-footer w-full">
-  <div class="py-24 px-6 sm:px-12 lg:px-24">
+  <div class="py-12 sm:py-24 px-6 sm:px-12 lg:px-24">
     <div class="flex flex-col lg:flex-row lg:justify-between">
       <div class=>
         <img class="mx-auto lg:mx-0 w-40 lg:w-60" src="../assets/images/logo-inverted.svg" alt="Markham Square Logo"/>
-        <nav class="mt-8 flex justify-center lg:justify-start">
+        <nav class="mt-2 lg:mt-8 flex justify-center lg:justify-start">
           <a class="p2 leading-relaxed text-white hover:text-gray-100 underline-grow-white transition-sm outline-primary" href="/work">Work</a>
           <a class="p2 leading-relaxed text-white hover:text-gray-100 underline-grow-white transition-sm outline-primary ml-12" href="/about">About</a>
           <a class="p2 leading-relaxed text-white hover:text-gray-100 underline-grow-white transition-sm outline-primary ml-12" href="/contact">Contact</a>
@@ -12,12 +12,12 @@
       <div class="hidden lg:inline-block md:text-right">
         <p class="p1 text-white ">Looking for exceptional results?</p>
         <div class="mt-3">
-          <x-button url="https://calendly.com/" message="Let's talk"/>
+          <x-button url="/contact" message="Let's talk"/>
         </div>
       </div>
     </div>
-    <div class="flex flex-col-reverse lg:flex-row justify-between items-center mt-16 lg:mt-20 lg:pt-8 lg:border-t-3 lg:border-white">
-      <p class="p3 text-white mt-8 lg:mt-0">&copy; {{ date('Y') }} Markham Square. All Rights Reserved.</p>
+    <div class="flex flex-col-reverse lg:flex-row justify-between items-center mt-8 lg:mt-20 lg:pt-8 lg:border-t-3 lg:border-white">
+      <p class="p3 leading-snug text-white mt-8 lg:mt-0 text-center lg:text-left">&copy; {{ date('Y') }} Markham Square. <br class="sm:hidden"/> All Rights Reserved.</p>
       <div class="flex md:justify-end">
         <a href="" class="text-white hover:text-orange-500 transition-sm outline-primary">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:h-10 lg:w-10" viewBox="0 0 256 256">

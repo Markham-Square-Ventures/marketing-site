@@ -1,4 +1,4 @@
-<section class="my-32 mx-6 sm:mx-12 lg:mx-24">
+<section class="my-16 sm:my-32 mx-6 sm:mx-12 lg:mx-24">
   <div class="mx-auto max-w-7xl">
     <h2 class="h2 max-w-xl text-gray-900">
       {{$header}}

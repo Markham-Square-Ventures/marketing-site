@@ -53,7 +53,7 @@
           <h1 class="font-black text-7xl md:text-9xl lg:text-10xl leading-full">
               About
           </h1>
-          <p class="p1 text-gray-800 mt-4 md:mt-8">
+          <p class="p1 text-gray-800 mt-4 md:mt-6">
             We’re obsessed with crafting exceptional digital experiences.
           </p>
           <div class="mt-8 md:mt-12 xl:mt-16">
@@ -73,13 +73,15 @@
   <section class="bg-orange-50 relative w-full py-16 md:py-32 px-6 sm:px-12 lg:px-24">
     <img src="../assets/images/values-bg.svg" alt="A background pattern of interlocking orange squares." class="hidden lg:block absolute top-0 right-0 z-0"/>
     <h3 class="h2">Our Values</h3>
-    <p class="max-w-3xl p1 mt-4">We bring our values to every project, free of charge. They’re our foundational framework that guides everything we do.</p>
+    <p class="max-w-3xl p1 mt-4 text-gray-800">We bring our values to every project, free of charge. They’re our foundational framework that guides everything we do.</p>
     <div class="mt-16 space-y-12">     
       @foreach ($values as $value)
-        <div class="grid grid-cols-values max-w-5xl items-center gap-x-0">
-          <p class="col-span-1 text-orange-500 text-xl">0{{$loop->index + 1}}</p>
-          <h3 class="col-span-8 col-start-2 h3	">{{$value['title']}}</h3>
-          <p class="col-span-8 col-start-2 p1	">{{$value['content']}}</p>
+        <div class="flex flex-col md:flex-row max-w-4xl">
+          <p class="text-orange-500 text-xl mb-4 md:mb-0 md:mr-4 md:mt-2">0{{$loop->index + 1}}</p>
+          <div>
+            <h3 class="h3 text-gray-900">{{$value['title']}}</h3>
+            <p class="mt-2 col-start-2 p1	text-gray-800">{{$value['content']}}</p>
+          </div>
         </div>  
       @endforeach
     </div>
@@ -88,14 +90,14 @@
   <section class="relative w-full py-16 md:py-32 px-6 sm:px-12 lg:px-24">
     <img src="../assets/images/why-bg.svg" alt="A background pattern of interlocking orange squares." class="hidden lg:block absolute bottom-0 right-0 z-0"/>
     <h3 class="h2">Why work with us</h3>
-    <p class="max-w-3xl p1 mt-4">We build strong, long-lasting partnerships with our clients to support them today, and tomorrow.</p>
+    <p class="max-w-3xl p1 mt-4 text-gray-800">We build strong, long-lasting partnerships with our clients to support them today, and tomorrow.</p>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-12">
       @foreach ($reasons as $reason)
-        <div >
+        <div>
           <img src="{{$reason['icon']}}" alt="{{$reason['icon_alt']}}">
-          <h3 class="h3 mt-6">{{$reason['header']}}</h3>
-          <p class="p1 mt-2">{{$reason['body']}}</p>
+          <h3 class="h3 mt-6 text-gray-900">{{$reason['header']}}</h3>
+          <p class="p1 mt-2 text-gray-800">{{$reason['body']}}</p>
         </div>
       @endforeach
     </div>

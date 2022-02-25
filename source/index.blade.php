@@ -3,7 +3,7 @@
 @section('body')
     <header class="bg-hero sm:shadow-secondary sm:m-6 lg:m-12 pt-12 pb-16 px-6 lg:p-12 lg:pt-16">
         <x-navigation/>
-        <div class="mt-12 lg:mt-24 max-w-5xl">
+        <div class="mt-8 sm:mt-12 lg:mt-24 max-w-5xl">
             <h1 class="h1">
                 We help product teams craft <span class="text-orange-500">exceptional</span> digital experiences
             </h1>
@@ -47,7 +47,7 @@
           img="screen"
           color="green"
           boldline="Bring your ideas to life."
-          content="We translate your visions and dreams into digital product experiences that surpass your wildest expectations."
+          content="We translate your vision into product experiences that surpass your wildest expectations."
         />
         <x-scrollcard
           banner="data + teaching"
