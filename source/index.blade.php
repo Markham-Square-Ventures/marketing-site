@@ -60,9 +60,9 @@
       </div>
     </section>
     <x-quote 
-      name="Michael Riddering"
-      quote="Markham Square is the bees knees! Working with them was the highlight of my career, and I can't wait to do it again."
-      role="Founding Product Designer, Maven"
+      name="Matt + Nick"
+      quote="There’s an old joke in product, “you can do things right, or you can do them again.” Our mission is to get everything right for you the first time."
+      role="Markham Square, Founders"
     />
     <x-contact />
     <x-footer/>
