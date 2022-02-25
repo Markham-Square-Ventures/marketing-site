@@ -25,6 +25,11 @@
 
 @extends('_layouts.main')
 
+<x-seo 
+  title="Work | Markham Square" 
+  description="Markham Square's process for delivering exceptional results, every time."
+></x-seo>
+
 @section('body')
   <header class="bg-hero sm:shadow-secondary sm:m-6 lg:m-12 pt-12 pb-16 px-6 lg:p-12 lg:pt-16">
       <x-navigation/>

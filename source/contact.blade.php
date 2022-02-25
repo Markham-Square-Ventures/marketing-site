@@ -1,5 +1,10 @@
 @extends('_layouts.main')
 
+<x-seo 
+  title="Contact | Markham Square" 
+  description="Get in touch with Markham Square!"
+></x-seo>
+
 @section('body')
   <header class="bg-hero sm:shadow-secondary sm:m-6 lg:m-12 pt-12 pb-16 px-6 lg:p-12 lg:pt-16">
       <x-navigation/>
