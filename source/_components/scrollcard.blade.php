@@ -72,7 +72,7 @@
   <div class="hidden lg:flex lg:w-1/3 h-full  justify-center {{$color === 'red' ? 'items-end' : 'self-center'}}">
     <img class="{{$color === 'red' ? 'h-4/5' : 'h-full'}}" src="/assets/images/{{$img}}.svg"/>
   </div>
-  <div class="pl-24 lg:pl-48 w-full lg:w-2/3">
+  <div class="pl-6 pr-6 md:pr-0 md:pl-24 lg:pl-48 w-full lg:w-2/3">
     <p class="{{ $colors[$color]['text']}} uppercase l2">{{$banner}}</p>
     <!-- Header -->
     <div class="flex items-center mt-4 gap-x-5" >
@@ -89,7 +89,7 @@
       </p>
     </div>
     <!-- Services -->
-    <ol class="mt-5 max-w-[740px] grid grid-cols-2 grid-rows-3 list-inside	">
+    <ol class="mt-5 max-w-[740px] grid grid-cols-1 md:grid-cols-2 grid-rows-1 md:grid-rows-3 list-inside">
         @foreach ($services[$header] as $service)
           <li class="text-xl mt-3 list-disc">{{$service}}</li>
         @endforeach
